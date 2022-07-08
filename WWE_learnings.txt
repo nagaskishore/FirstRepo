@@ -1,0 +1,50 @@
+WWE Learnings:
+
+1.
+https://docs.getdbt.com/docs/building-a-dbt-project/documentation
+
+2.
+Schedules :- https://crontab.guru/#0_16_*_*_*
+crontab.gurucrontab.guru
+Crontab.guru - The cron schedule expression editor
+An easy to use editor for crontab schedules.
+
+3. 
+Git command via terminal window /cmd
+------------------------------------
+1) git pull "https://git.XXX.com/data_engineering/dbt/analytics.git"abc_kpi
+2) git status
+3)git add .
+4) git status
+5) git commit -m "Files added"
+6)git remote add origin "https://git.XXX.com/data_engineering/dbt/analytics.git"
+7)git branch -a
+8)git push origin HEAD:feature branch name
+9)Done
+
+4.
+dbt compile --target XXX_uat - give correct profile name for UAT.
+dbt run --models tag:rpt_yt_daily --target XXX_uat
+Dbt docs generate --target XXX_uat
+
+5.
+svv_table_info --> redshift tables similar to all_tabs on oracle
+
+
+Retool:
+https://www.youtube.com/watch?v=lqFgt4_BS6o
+
+https://docs.retool.com/docs/quickstart
+
+https://kishoresvv.retool.com/editor/97dc68a0-f93b-11ec-8ec8-87ac36cb31cc/Onboarding%20Page#
+
+https://docs.retool.com/docs/quickstart
+
+-------------
+https://retool.com/in
+https://retool.com/use-case/graphql-gui
+https://docs.retool.com/docs/tutorials
+https://docs.retool.com/docs
+https://docs.retool.com/docs/quickstart
+https://www.youtube.com/results?search_query=retool+tutorial
+-------------
